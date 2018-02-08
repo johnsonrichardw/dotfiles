@@ -46,5 +46,5 @@ set wildignore+=*/build/*
 "cindent options, make sure labels like public: and protected: aren't indented
 set cinoptions+=,g0
 
-let g:airline_powerline_fonts = 1
+"let g:airline_powerline_fonts = 1
 
