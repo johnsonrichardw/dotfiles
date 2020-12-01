@@ -23,12 +23,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 #Run vim telling it to install my plugins and then quit
 vim -c ":PlugInstall" -c ":q" -c ":q"
 
-#Add the solarized colorscheme to my .vimrc
-#If I had it in my .vimrc before plugins were installed vim would throw an
-#error and require me to press enter before the commands could start.
-echo "\"Solarized color scheme" >> ~/.vimrc
-echo "set background=dark" >> ~/.vimrc
-echo "colorscheme solarized" >> ~/.vimrc
 
 
 
