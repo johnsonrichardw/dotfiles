@@ -21,7 +21,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 #Run vim telling it to install my plugins and then quit
-vim -c ":PlugInstall" -c ":q" -c ":q"
+vim -c ":PlugInstall" -c ":qa"
 
 
 
