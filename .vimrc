@@ -31,8 +31,8 @@ set colorcolumn=80
 au BufRead,BufNewFile *.py set expandtab | set tabstop=4 | set softtabstop=4 | set shiftwidth=4
 
 "Solarized color scheme
-"set background=dark
-"colorscheme solarized
+set background=dark
+silent! colorscheme solarized
 
 "turn on matchit
 runtime macros/matchit.vim
